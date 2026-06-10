@@ -1,13 +1,15 @@
-import logo from './assets/logo.svg'
-import { Aside } from './components/Aside'
+import logo from "./assets/logo.svg";
+import { Aside } from "./components/Aside";
+import { Container } from "./components/Container";
 
 function App() {
-
   return (
     <div className="bg-neutral-background min-h-screen">
-      <Aside />
+      <Container>
+        <Aside />
+      </Container>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
