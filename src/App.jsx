@@ -1,4 +1,3 @@
-import logo from "./assets/logo.svg";
 import { Aside } from "./components/Aside";
 import Card, { CardBody, CardHeader } from "./components/Card";
 import { Container } from "./components/Container";
