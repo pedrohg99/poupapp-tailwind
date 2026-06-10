@@ -30,7 +30,7 @@ function App() {
                 Orçamento diário disponível:
               </Card.Header>
               <Card.Body>
-                <DailyBudget value={42} />
+                <DailyBudget value={200} />
               </Card.Body>
             </Card>
             <Card>
