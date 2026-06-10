@@ -151,9 +151,10 @@ Exibe contas fictícias contendo:
 
 Nome da instituição
 Saldo disponível
+
 ⚙️ Como Executar o Projeto
 1. Clone o repositório
-git clone https://github.com/seu-usuario/poupapp-dashboard.git
+git clone https://github.com/pedrohg99/poupapp-tailwind
 2. Acesse o diretório
 cd poupapp-dashboard
 3. Instale as dependências
