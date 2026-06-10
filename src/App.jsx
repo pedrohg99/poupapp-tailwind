@@ -4,6 +4,7 @@ import Card, { CardBody, CardHeader } from "./components/Card";
 import { Container } from "./components/Container";
 import { DailyBudget } from "./components/DailyBudget";
 import { Main } from "./components/Main";
+import { SavingsStatus } from "./components/SavingsStatus";
 import { SearchInput } from "./components/SearchInput";
 import { Typography } from "./components/Typography";
 
@@ -36,7 +37,7 @@ function App() {
                 Progresso da meta financeira:
               </Card.Header>
               <Card.Body>
-                R$200,00
+                <SavingsStatus />
               </Card.Body>
             </Card>
             <Card>
